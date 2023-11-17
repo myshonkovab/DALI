@@ -5,7 +5,7 @@ const int DALI_RX_A = A0;
 
 void setup() {
   Serial.begin(9600);  //74880
-  Serial.println("start");
+  Serial.println("start DALI control");
   dali.setupTransmit(DALI_TX);         //устанавливаем цифровой выход для передачи сообщений
   dali.setupAnalogReceive(DALI_RX_A);  //устанавливаем аналоговый вход для приема сообщений
   dali.msgMode = true;                 //режим сообщений
