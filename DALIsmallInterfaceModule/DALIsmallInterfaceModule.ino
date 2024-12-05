@@ -35,27 +35,22 @@ void setup() {
 
   //режим сообщений
 
-  //dali.busTest();//тестируем шину
-  //initLum(); // Инициализация световых приборов (присвоение коротких адресов?)
+  dali.busTest();//тестируем шину
   //dali.initialisation(); // Запустить инициализацию.
 
-  // Тестирование шины
-  dali.transmit(BROADCAST_F, 64);
-  delay(500);
-  dali.transmit(BROADCAST_F, 128);
-  delay(500);
-  dali.transmit(BROADCAST_F, 192);
-  delay(500);
-  dali.transmit(BROADCAST_F, 255);
-  delay(500);
+  // dali.scanShortAdd();
 }
 
 void loop() {
   if (Serial.available()) {
     uint8_t adress = Serial.parseInt();
     uint8_t flux = Serial.parseInt();
-    if (adress < 65) {
-      dali.transmit((adress - 1) << 1, flux);
+    if (adress < 64) {
+      dali.transmit((adress) << 1, flux);
+      Serial.println("Адрес: " + String(adress) + ". Поток: " + String(flux));
+    }
+    if (adress == 64) {
+      dali.transmit((adress-65) << 1, flux);
       Serial.println("Адрес: " + String(adress) + ". Поток: " + String(flux));
     }
   }
