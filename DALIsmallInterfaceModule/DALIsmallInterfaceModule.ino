@@ -14,17 +14,17 @@
 #define ON_C 0b00000101
 #define MIN_C 0b00000110
 
-const int DALI_VCC = 14;   //A0
-const int DALI_TX = 15;    //A1
-const int DALI_RX_A = 16;  //A2
-const int DALI_G = 17;     //A3
+
+const int DALI_TX = 14;    //A0
+const int DALI_RX_A = 15;  //A1
+const int DALI_G = 16;     //A2
 
 void setup() {
   Serial.begin(9600);  //74880
-  pinMode(DALI_VCC, OUTPUT);
+ 
   pinMode(DALI_TX, OUTPUT);
   pinMode(DALI_G, OUTPUT);
-  digitalWrite(DALI_VCC, HIGH);
+ 
   digitalWrite(DALI_G, LOW);
 
 
