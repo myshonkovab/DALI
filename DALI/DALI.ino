@@ -1,8 +1,8 @@
 #include <Dali.h>
 
-const int DALI_TX = 15;    //A0
-const int DALI_RX_A = 16;  //A1
-const int DALI_G = 17;     //A2
+const int DALI_TX = 14;    //A0
+const int DALI_RX_A = 15;  //A1
+const int DALI_G = 16;     //A2
 
 #define BROADCAST_DP 0b11111110
 #define BROADCAST_C 0b11111111
@@ -18,6 +18,8 @@ void setup() {
   Serial.begin(9600);
   dali.setupTransmit(DALI_TX);
   dali.setupAnalogReceive(DALI_RX_A);
+  pinMode(DALI_G, OUTPUT);
+  digitalWrite(DALI_G, LOW);
   dali.busTest();
   dali.msgMode = true;
   Serial.println(dali.analogLevel);
