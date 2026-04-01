@@ -1,6 +1,5 @@
 # DALI
 Настройка
-
 void setup() {
 Serial.begin(74880); 
 /*
