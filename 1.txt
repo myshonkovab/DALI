@@ -1,2 +1,2 @@
-TimeAero(1),TimeNotAero(1),brightRed(6),brightBlue(6),brightWhite(6),sendInterval(1),duration(1) - числа это кол-во значений и время только в милисекундах
-300,1500,0,254,254,254,254,254,0,0,0,0,0,0,0,254,254,254,254,254,10,360
+TimeAero(1),TimeNotAero(1),brightRed(6),brightBlue(6),brightWhite(6),sendInterval(1),duration(1) - числа это кол-во значений и время только в секундах
+300,1500,0,200,200,200,200,200,0,100,100,100,100,100,0,230,230,230,230,230,10,360
