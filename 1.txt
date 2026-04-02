@@ -1,2 +1,14 @@
-TimeAero(1),TimeNotAero(1),brightRed(6),brightBlue(6),brightWhite(6),sendInterval(1),duration(1) - числа это кол-во значений и время только в секундах
-300,1500,0,254,254,254,254,254,0,0,0,0,0,0,0,254,254,254,254,254,10,6
+TimeAero(1) - В скобках кол-во необходимых чисел, все параметры кроме якрости и duration задаются в секундах 
+300
+TimeNotAero(1)
+1500
+brightRed(6) 
+0,254,254,254,254,254
+brightBlue(6)
+0,0,0,0,0,0
+brightWhite(6)
+0,254,254,254,254,254
+sendInterval(1)
+10
+duration(1)
+6
