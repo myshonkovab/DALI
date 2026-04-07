@@ -15,4 +15,4 @@ duration(1)
 wakeOnTime(1)
 25200
 wakeOffTime(1)
-75600
+54000
