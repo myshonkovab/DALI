@@ -5,6 +5,7 @@ Serial.begin(74880);
 /*
 Задаем цифровой выход.
 */
+/*
 dali.setupTransmit(3); 
 */
 /*
