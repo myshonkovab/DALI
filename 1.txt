@@ -12,3 +12,7 @@ sendInterval(1)
 10
 duration(1)
 1.5
+wakeOnTime(1)
+25200
+wakeOffTime(1)
+756000
