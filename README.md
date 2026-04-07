@@ -19,8 +19,8 @@ dali.setupTransmit(3);
 - brightWhite(6) 0,254,254,254,254,254
 - sendInterval(1) 10     // 10с
 - duration(1) 1.5        // константа для durations (duration * (TimeAero + TimeNotAero)), записана как float поэтому может быть дробной (пример: 0.75)
-- wakeOnTime(1) 25200    // 7*60*60
-- wakeOffTime(1) 54000   // 21*60*60
+- wakeOnTime(1) 25200    // 7*60*60 (7:00)
+- wakeOffTime(1) 54000   // 21*60*60 (21:00)
 */
 
 /*
