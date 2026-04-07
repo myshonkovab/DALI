@@ -13,6 +13,6 @@ sendInterval(1)
 duration(1)
 1.5
 wakeOnTime(1)
-25200
+7*60*60
 wakeOffTime(1)
-756000
+21*60*60
