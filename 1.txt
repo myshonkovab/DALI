@@ -7,7 +7,7 @@ nightAeroDuration(1)
 nightAeroPeriod(1)
 7200
 brightRed(6) 
-0,50,30,50,30,50
+0,254,30,254,30,254
 brightBlue(6)
 0,0,0,0,0,0
 brightWhite(6)
