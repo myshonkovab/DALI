@@ -1,4 +1,3 @@
-В скобках кол-во необходимых чисел, все параметры кроме якрости задаются в секундах
 dayAeroPeriod(1)
 7200
 dayAeroDuration(1) 
@@ -18,7 +17,7 @@ brightBlue(8)
 brightWhite(8)
 0,254,254,254,254,254,254,254
 sendInterval(1)
-60
+40
 lightDurations(1)
 7200
 wakeOnTime(1)
