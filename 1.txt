@@ -1,13 +1,13 @@
 dayAeroPeriod(1)
-7200
+9000
 dayAeroDuration(1) 
-3600
+5400
 dayAeroTimeShift(1)
 1800
 nightAeroPeriod(1)
-7200
+9000
 nightAeroDuration(1)
-3600
+5400
 nightAeroTimeShift(1) 
 1800
 brightRed(8)
