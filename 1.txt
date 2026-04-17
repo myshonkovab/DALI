@@ -15,7 +15,7 @@ nightAeroTimeShift(1)
 brightRed(8)
 0,254,254,254,254,254,254,254
 brightBlue(8)
-0,0,0,0,0,0,0,0
+0,254,254,254,254,254,254,254
 brightWhite(8)
 0,254,254,254,254,254,254,254
 sendInterval(1)
