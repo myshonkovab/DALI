@@ -2,13 +2,13 @@
 dayAeroPeriod(1)
 9000
 dayAeroDuration(1) 
-8999
+8998
 dayAeroTimeShift(1)
 1
 nightAeroPeriod(1)
 9000
 nightAeroDuration(1)
-8999
+8998
 nightAeroTimeShift(1) 
 1
 //Тестовый коммент    100,100,100,100,100,100,100,100        0,254,30,254,30,254,30,254
