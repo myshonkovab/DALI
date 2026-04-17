@@ -1,3 +1,4 @@
+Коммент
 dayAeroPeriod(1)
 9000
 dayAeroDuration(1) 
@@ -10,6 +11,7 @@ nightAeroDuration(1)
 5400
 nightAeroTimeShift(1) 
 1800
+//Тестовый коммент
 brightRed(8)
 0,254,30,254,30,254,30,254
 brightBlue(8)
