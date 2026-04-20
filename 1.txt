@@ -19,7 +19,7 @@ brightWhite(8)
 sendInterval(1)
 30
 lightDurations(1)
-1800
+30
 wakeOnTime(1)
 25200
 wakeOffTime(1)
