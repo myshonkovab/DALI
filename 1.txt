@@ -1,13 +1,13 @@
 dayAeroPeriod(1)
-0
+3200
 dayAeroDuration(1) 
-0
+3200
 dayAeroTimeShift(1)
 0
 nightAeroPeriod(1)
-0
+3200
 nightAeroDuration(1)
-0
+3200
 nightAeroTimeShift(1) 
 0
 brightRed(8)
@@ -19,7 +19,7 @@ brightWhite(8)
 sendInterval(1)
 30
 lightDurations(1)
-30
+1800
 wakeOnTime(1)
 25200
 wakeOffTime(1)
