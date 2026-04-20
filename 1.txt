@@ -1,4 +1,3 @@
-Коммент
 dayAeroPeriod(1)
 9000
 dayAeroDuration(1) 
