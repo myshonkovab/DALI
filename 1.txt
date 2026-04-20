@@ -1,9 +1,9 @@
 dayAeroPeriod(1)
 60
 dayAeroDuration(1) 
-30
+60
 dayAeroTimeShift(1)
-0
+60
 nightAeroPeriod(1)
 60
 nightAeroDuration(1)
