@@ -17,7 +17,7 @@ brightRed(8)
 brightBlue(8)
 0,0,254,0,254,254,0,254
 brightWhite(8)
-0,0,0,254,0,254,254,254
+0,0,0,254,0,254,0,254
 sendInterval(1)
 30
 lightDurations(1)
