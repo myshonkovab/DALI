@@ -47,13 +47,13 @@ wakeOffTime(1)
 75600
 //Адрес красного сд
 adressRed(1)
-3
+2
 //Адрес синего сд
 adressBlue(1)
-4
+5
 //Адрес белого сд
 adressWhite(1)
-5
+6
 //Адрес аэрации
 adressAero(1)
 10
