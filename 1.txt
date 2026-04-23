@@ -47,7 +47,7 @@ wakeOffTime(1)
 75600
 //Адрес красного сд
 adressRed(1)
-6
+3
 //Адрес синего сд
 adressBlue(1)
 4
