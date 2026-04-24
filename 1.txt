@@ -9,10 +9,10 @@ dayAeroTimeShift(1)
 0
 //Период ночной аэрации (секунды)
 nightAeroPeriod(1)
-3200
+0
 //Длительность аэрации ночью (секунды)
 nightAeroDuration(1)
-3200
+0
 //Задержка аэрации при переходе день/ночь (секунды)
 nightAeroTimeShift(1) 
 0
@@ -44,13 +44,13 @@ wakeOffTime(1)
 75600
 //Адрес красного сд
 adressRed(1)
-5
+8
 //Адрес синего сд
 adressBlue(1)
 4
 //Адрес белого сд
 adressWhite(1)
-8
+5
 //Адрес аэрации
 adressAero(1)
 10
