@@ -20,9 +20,9 @@ nightAeroTimeShift(1)
 brightLED1(8)
 0,254,254,254,254,254,254,254
 brightLED2(8)
-0,0,0,0,0,0,0,0
-brightLED3(8)
 0,254,254,254,254,254,254,254
+brightLED3(8)
+0,0,0,0,0,0,0,0
 //Интервал отправки в GoogleSheet (секунды)
 sendInterval(1)
 30
