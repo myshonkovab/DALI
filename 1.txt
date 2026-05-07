@@ -22,7 +22,7 @@ brightRed(8)
 brightBlue(8)
 0,0,0,0,0,0,0,0
 brightWhite(8)
-0,0,0,0,0,0,0,0
+0,254,254,254,254,254,254,254
 //Интервал отправки в GoogleSheet (секунды)
 sendInterval(1)
 30
